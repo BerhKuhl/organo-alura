@@ -1,0 +1,10 @@
+<section>
+    <h2 class="title-text">
+        Minhas leituras
+    </h2>
+
+    <span class="highlight-line highlight-line--big"></span>
+</section>
+@for(genre of genres; track genre) {
+    <app-literary-genre [genre]="genre"></app-literary-genre>
+}
